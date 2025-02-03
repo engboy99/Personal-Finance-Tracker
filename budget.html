@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budgeting App</title>
+  <link rel="stylesheet" href="budget.css">
+</head>
+<body>
+  <header>
+    <h1>Budgeting App</h1>
+  </header>
+
+  <main>
+    <section id="expenses">
+      <h2>Expenses</h2>
+      <form id="expenseForm">
+        <input type="text" id="expenseName" placeholder="Expense Name">
+        <input type="number" id="expenseAmount" placeholder="Amount">
+        <button type="submit">Add Expense</button>
+      </form>
+      <ul id="expenseList"></ul>
+      <div id="expenseTotal">Total Expenses: $0</div>
+    </section>
+
+    <section id="incomes">
+      <h2>Incomes</h2>
+      <form id="incomeForm">
+        <input type="text" id="incomeName" placeholder="Income Source">
+        <input type="number" id="incomeAmount" placeholder="Amount">
+        <button type="submit">Add Income</button>
+      </form>
+      <ul id="incomeList"></ul>
+      <div id="incomeTotal">Total Incomes: $0</div>
+    </section>
+
+    <section id="investments">
+      <h2>Investments</h2>
+      <form id="investmentForm">
+        <input type="text" id="investmentName" placeholder="Investment">
+        <input type="number" id="investmentAmount" placeholder="Amount">
+        <button type="submit">Add Investment</button>
+      </form>
+      <ul id="investmentList"></ul>
+      <div id="investmentTotal">Total Investments: $0</div>
+    </section>
+  </main>
+
+  <script src="budget.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(budge.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+  header {
+    background-color: #16c80f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  form input, form button {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #expenseTotal, #incomeTotal, #investmentTotal {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
